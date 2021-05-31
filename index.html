@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count your words here</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1" id="header">
+            <img src="logo.png" alt="Can't load image...">
+            <h1>Word Counter</h1>
+        </div>
+
+        <div class="item2" id="menu">
+            <div id="inner">
+                <span style='font-size:30px;'>&#372;</span>
+                <div class="dropdownContent" id="myDropdown">
+                    <button onclick="facebook()">Facebook</button>
+                    <button onclick="twitter()">Twitter</button>
+                    <button onclick="google()">Google</button>
+                    <button onclick="manual()">Manual</button>
+                </div>
+            </div>
+            <div id="caste">
+                <span style='font-size:25px;'>&#391;</span>
+                <span style='font-size:30px;'>&#1010;</span>
+            </div>
+            <div id="clear"><span style='font-size:30px;'>&#10008;</span></div>
+            <div id="text"><span style='font-size:30px;'>&#8376;</span></div>
+        </div>
+
+        <div class="item3" id="main">
+            <textarea name="Text" id="textarea" cols="110" rows="30" placeholder="Type your text here..."></textarea>
+        </div>
+
+        <div class="item4" id="section">
+            <div id="character">0 characters</div>
+            <div id="word">0 words</div>
+            <div id="sentence">0 sentences</div>
+            <div id="paragraph">0 paragraphs</div>
+            <div id="limit">Characters need to write</div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
